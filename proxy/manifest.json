@@ -1,0 +1,20 @@
+{
+        "name": "Chrome Proxy Extension",
+        "version": "1.0",
+        "description": "Proxy auto connect for ChromeDriver Option",
+        "manifest_version": 2,
+        "permissions": [
+            "proxy",
+            "tabs",
+            "unlimitedStorage",
+            "storage",
+            "<all_urls>",
+            "webRequest",
+            "webRequestBlocking"
+        ],
+        "background": {
+            "scripts": ["background.js"]
+        },
+        "minimum_chrome_version":"22.0.0"
+        }
+        
